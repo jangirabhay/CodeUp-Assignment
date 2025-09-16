@@ -10,9 +10,7 @@ import java.util.*;
 public class NewMethod {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
-
-        System.out.print("Enter a table number: ");
+        System.out.print("Enter a number to print its table: ");
         String input = sc.nextLine();
         System.out.print("Enter a range : ");
         String range = sc.nextLine();
@@ -34,3 +32,4 @@ public class NewMethod {
 
     }
 }
+
