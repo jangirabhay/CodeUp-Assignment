@@ -230,6 +230,11 @@ public class AdditionQuiz {
 
         for (int i = 0; i < temp.length(); i++) {
             char ch = temp.charAt(i);
+
+				if(ch - '0' >= 0){
+				return false;
+			}
+			
             if (seen[ch - 'a']) {
                 return false;
             }
@@ -239,3 +244,4 @@ public class AdditionQuiz {
         return true;
     }
 }
+
