@@ -34,7 +34,7 @@ public class MyString {
                     }
                 }
 
-                // Append remaining characters (if any)
+                
                 while (i < dummy.length()) {
                     result += dummy.charAt(i);
                     i++;
@@ -196,4 +196,5 @@ public class MyString {
                 break;
         }
     }
+
 }
