@@ -1,3 +1,13 @@
+/*
+Assignment Title: Java Programming Assignment
+Tasks :- Based on String
+		1.append(String newString)
+  		2. replace(String a, String b)
+		3. sort()
+		4. reverse()
+Class owner : Abhay
+Date : - 19/09/2025
+*/
 import java.util.*;
 
 public class MyString {
@@ -197,4 +207,5 @@ public class MyString {
     }
 
 }
+
 
