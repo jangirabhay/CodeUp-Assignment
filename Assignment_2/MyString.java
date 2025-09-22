@@ -99,7 +99,6 @@ public class MyString {
             char temp = word[index];
             word[index] = word[end];
             word[end] = temp;
-
             return index;
         }
     }
@@ -157,7 +156,7 @@ public class MyString {
                         remove = temp2;
                         break;
                     } else {
-                        System.out.println("Your givem data is wrong so Enter again ");
+                        System.out.println("Your givem data is wrong please enter again ");
                     }
                 }
 				System.out.print("Enter replace word : ");
@@ -198,3 +197,4 @@ public class MyString {
     }
 
 }
+
