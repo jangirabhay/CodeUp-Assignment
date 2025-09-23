@@ -1,3 +1,11 @@
+/*
+ * Assignment Title: Java Programming Assignment 
+ * Tasks :- Based on String
+ * Class Owner :-  Abhay
+ * Date : 22/09/2025 
+ */
+
+
 import java.util.*;
 
 public class MyString {
