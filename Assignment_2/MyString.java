@@ -1,6 +1,6 @@
 /*
  * Assignment Title: Java Programming Assignment 
- * Tasks :- Based on String
+ * Tasks :- Based on String (Appends,Sort,Replace,Reverse)
  * Class Owner :-  Abhay
  * Date : 22/09/2025 
  */
@@ -71,7 +71,7 @@ public class MyString {
 
         mergeSort(words, 0, length - 1);
         String result = "";
-        for (int i = 0; i < words.length; i++) {
+        fo  r (int i =  0 ; i < words.length; i++) {
             result += words[i];
         }
         return result;
@@ -80,11 +80,11 @@ public class MyString {
     public static void mergeSort(char[] arr, int left, int right) {
         if (left < right) {
             int mid = (left + right) / 2;
-            // Sort left half
+
             mergeSort(arr, left, mid);
-            // Sort right half
+
             mergeSort(arr, mid + 1, right);
-            // Merge sorted halves
+
             merge(arr, left, mid, right);
         }
     }
@@ -127,18 +127,18 @@ public class MyString {
         Scanner userInput = new Scanner(System.in);
         MyString operations = new MyString();
 
-        while (true) {
-            String Tasks = """
-                    Operations : -
-                    1. -> Append  ex :- Hello  append(" World") result = Hello World
-                    2. -> Replace ex : String original ,String remove, String replace
-                    3. -> Sort  ex : { program } after sort -> {agmnoprr}
-                    4. -> Reverse  ex : {abcde}  after reverse -> {edcba}
-                    5. -> Exit
-                    """;
-            System.out.println(Tasks);
-            System.out.print("Select your operations : ");
+        String Tasks = """
+                Operations : -
+                1. -> Append  ex :- Hello  append(" World") result = Hello World
+                2. -> Replace ex : String original ,String remove, String replace
+                3. -> Sort  ex : { program } after sort -> {agmnoprr}
+                4. -> Reverse  ex : {abcde}  after reverse -> {edcba}
+                5. -> Exit
+                """;
+        System.out.println(Tasks);
 
+        while (true) {
+            System.out.print("Select your operations : ");
             int choice;
             while (true) {
                 String number = userInput.nextLine();
@@ -177,10 +177,9 @@ public class MyString {
 
                     String remove;
                     System.out.println(
-                            "Please enter a word that exactly matches part of the original data, including case (e.g., 'Ab' is valid in 'Abhay', but 'ab' is not).");
+                            "Please enter a word that exactly matches part of the original data, including case (e.g., 'Ab' is valid in 'Abhay', but 'ab' is not)");
 
                     while (true) {
-
                         System.out.print("Enter remove  word : ");
                         String temp2 = userInput.nextLine();
                         if (data.length() >= temp2.length() && !temp2.isEmpty()) {
@@ -212,3 +211,7 @@ public class MyString {
         }
     }
 }
+
+                    
+
+                    
