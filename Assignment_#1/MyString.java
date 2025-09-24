@@ -1,3 +1,4 @@
+
 /*
 Assignment Title: Java Programming Assignment  
 Task 1: Expand Characters in a String  
@@ -244,18 +245,20 @@ public class MyString {
                 case 4:
                     int value1;
                     while (true) {
-                        String task4 = userInput.nextLine();
+                        
                         try {
-                            int data1 = Integer.parseInt(task4);
+                            int data1 = Integer.parseInt(data);
                             if (data1 >= 0 && data1 <= 1000) {
                                 value1 = data1;
                                 break;
                             } else {
                                 System.out.println("Enter data in given range like (0 to 1000) : ");
+                                data = userInput.nextLine();
                             }
 
                         } catch (NumberFormatException e) {
                             System.out.println("Enter valid number ");
+                            data = userInput.nextLine();
                         }
 
                     }
