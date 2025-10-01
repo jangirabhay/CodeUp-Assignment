@@ -95,11 +95,11 @@ public class Operations {
         Scanner userInput = new Scanner(System.in);
 
         String detail = """
-                    1. Valid Parenthesis Combination.
-                    2. Sum of Digits (DigitSum).
-                    3. Consecutive Number Sum.
-                    4. Caesar Cipher Encoding.
-                    5. Encoded ASCII Transformation.
+                    1. Valid Parenthesis Combination. ( input : 3, output : ["((()))","(()())","(())()","()(())","()()()"])
+                    2. Sum of Digits (DigitSum). (input : 12345, output : 15)
+                    3. Consecutive Number Sum. (input : 15, output : 4)
+                    4. Caesar Cipher Encoding. (input : word = abc, shifted = 3 , output : def)
+                    5. Encoded ASCII Transformation. (input : size = 4 data = {a,b,c,d}  series = 2 , output : c d e f
                     6. Exit..
                 """;
 
