@@ -1,11 +1,11 @@
 /*
  Assignment Title: Java Menu-Driven Program – String & Number Operations
  Operations to Implement
-  -> 1. Count Unique Palindromes
-  -> 2. Fibonacci Sequence – Nth Number
-  -> 3. Snake Case to Camel Case Conversion
-  -> 4. Count Consonants in a String
-  -> 5. Binary to Decimal Conversion
+  -> 1. Count Unique Palindromes (Input: "ababa", Output: 3 (palindromes → "aba", "bab", "ababa"))
+  -> 2. Fibonacci Sequence – Nth Number (Input: 6, Output: 8)
+  -> 3. Snake Case to Camel Case Conversion (Input: "hello_world_java",Output: "helloWorldJava")
+  -> 4. Count Consonants in a String (Input: "hello world", Output: 7)
+  -> 5. Binary to Decimal Conversion (Input: "1011", Output: 11)
 
   class owner : Abhay
   Date : 7/10/2025
@@ -43,7 +43,7 @@ public class StringNumberUtils {
     return true;
   }
 
-  // 2. Fibonacci Sequence – Nth Number (Iterative for efficiency)
+  // 2. Fibonacci Sequence – Nth Number 
   public int fibSeq(int n) {
     if (n == 0) return 0;
     if (n == 1) return 1;
@@ -137,7 +137,7 @@ public class StringNumberUtils {
       }
 
       if (choice == 6) {
-        System.out.println("Thank you for using the program!");
+        System.out.println("Exiting the program. Thank you!");
         break;
       }
 
